@@ -24,17 +24,12 @@ in {
     (luaMap "<leader>/" "Snacks.picker.lines()" "Search in buffer")
 
     # --- Explorers ---------------------------------------------------------
+    (luaMap "<leader>e" "Snacks.explorer()" "Toggle explorer")
     {
       key = "-";
       mode = "n";
       action = "<cmd>Oil --float<CR>";
       desc = "Open parent directory (oil)";
-    }
-    {
-      key = "<leader>e";
-      mode = "n";
-      action = "<cmd>Neotree toggle<CR>";
-      desc = "Toggle file tree (neo-tree)";
     }
 
     # --- Terminal ----------------------------------------------------------

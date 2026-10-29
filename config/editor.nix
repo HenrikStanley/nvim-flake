@@ -40,13 +40,5 @@
         };
       };
     };
-
-    filetree.neo-tree = {
-      enable = true;
-      setupOpts = {
-        # oil owns directory buffers (`nvim .`); neo-tree is sidebar only.
-        filesystem.hijack_netrw_behavior = "disabled";
-      };
-    };
   };
 }

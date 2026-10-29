@@ -37,7 +37,7 @@ Debugging: `nvf-print-config` prints the generated `init.lua`.
 | `flake.nix`             | Inputs (nvf `main`, nixpkgs follows nvf) and outputs            |
 | `config/options.nix`    | Leader, editor options, clipboard, undo                        |
 | `config/ui.nix`         | kanagawa, mini.statusline, devicons, snacks.nvim               |
-| `config/editor.nix`     | treesitter, blink.cmp, autopairs, which-key, oil, neo-tree, direnv |
+| `config/editor.nix`     | treesitter, blink.cmp, autopairs, which-key, oil, direnv |
 | `config/git.nix`        | gitsigns                                                       |
 | `config/lsp.nix`        | LSP, diagnostics, format-on-save                               |
 | `config/languages.nix`  | Per-language LSP / formatter / linter choices                  |
@@ -65,7 +65,7 @@ Leader is `<Space>`.
 | `<leader>fs/fn`    | Document symbols / notifications  |
 | `<leader>fr`       | Resume last picker                |
 | `-`                | Oil (floating)                    |
-| `<leader>e`        | Toggle neo-tree                   |
+| `<leader>e`        | Toggle explorer (snacks)          |
 | `<C-/>`            | Toggle terminal                   |
 | `<leader>uf`       | Toggle format on save             |
 | `<leader>ub/ud`    | Toggle git blame / deleted lines  |

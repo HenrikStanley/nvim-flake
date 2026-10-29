@@ -13,13 +13,31 @@
       '';
     };
 
-    mini.statusline.enable = true;
+    statusline.lualine = {
+      enable = true;
+      setupOpts = {
+        options = {
+          globalstatus = true; # one statusline across all windows
+          component_separators = "";
+          section_separators = "";
+          theme = "auto"; # follows kanagawa colors
+        };
+      };
+    };
     visuals.nvim-web-devicons.enable = true;
 
     utility.snacks-nvim = {
       enable = true;
       setupOpts = {
-        picker.enabled = true;
+        picker = {
+          enabled = true;
+          sources.explorer = {
+            hidden = true;
+            ignored = true;
+            auto_close = true;
+          };
+        };
+        explorer.enabled = true;
         notifier.enabled = true;
         terminal.enabled = true;
         indent.enabled = true;
