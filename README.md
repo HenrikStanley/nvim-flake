@@ -28,6 +28,8 @@ extra-substituters = https://nvf.cachix.org
 extra-trusted-public-keys = nvf.cachix.org-1:GMQWiUhZ6ux9D5CvFFMwnc2nFrUHTeGaXRlVBXo+naI=
 ```
 
+Common tasks are in the `justfile` (`just` lists them; `just update-live` installs the current config, `just upgrade` also updates inputs).
+
 Debugging: `nvf-print-config` prints the generated `init.lua`.
 
 ## Layout
