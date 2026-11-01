@@ -36,7 +36,7 @@ Debugging: `nvf-print-config` prints the generated `init.lua`.
 | ----------------------- | -------------------------------------------------------------- |
 | `flake.nix`             | Inputs (nvf `main`, nixpkgs follows nvf) and outputs            |
 | `config/options.nix`    | Leader, editor options, clipboard, undo                        |
-| `config/ui.nix`         | kanagawa, mini.statusline, devicons, snacks.nvim               |
+| `config/ui.nix`         | hokusai, mini.statusline, devicons, snacks.nvim               |
 | `config/editor.nix`     | treesitter, blink.cmp, autopairs, which-key, oil, direnv |
 | `config/git.nix`        | gitsigns                                                       |
 | `config/lsp.nix`        | LSP, diagnostics, format-on-save                               |

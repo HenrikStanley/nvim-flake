@@ -16,6 +16,22 @@
         "url": "https://git.lix.systems/lix-project/flake-compat.git"
       }
     },
+    "hokusai-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793492115,
+        "narHash": "sha256-qDF1t1390QUDDArGGzlf+hy9I29+zoYbzWqT0OmvUD8=",
+        "owner": "HenrikStanley",
+        "repo": "hokusai.nvim",
+        "rev": "630e3319b1dc72f919d6fddeee64b61949ea4e4f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "HenrikStanley",
+        "repo": "hokusai.nvim",
+        "type": "github"
+      }
+    },
     "mnw": {
       "locked": {
         "lastModified": 1784154424,
@@ -66,6 +82,7 @@
     },
     "root": {
       "inputs": {
+        "hokusai-nvim": "hokusai-nvim",
         "nixpkgs": [
           "nvf",
           "nixpkgs"
